@@ -96,14 +96,12 @@ def changing_alan
         :languages => ["C"]
       }
     }
-
+  programmer_hash[:alan_kay][:known_for] = "GUI"
+  programmer_hash
 end
 
 def adding_to_dennis
-  # add "Assembly" to Dennis Ritchie's languages array
-  # return the entire updated hash
-
-	programmer_hash = 
+  programmer_hash = 
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -118,5 +116,5 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
-
+  programmer_hash[:dennis_ritchie][:languages].push("Assembly")
 end
